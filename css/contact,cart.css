@@ -563,7 +563,7 @@ textarea {
     border: border;
     background: white;
     text-transform: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.5rem;
     margin: .7rem 0;
 }
@@ -674,6 +674,7 @@ textarea {
 
 .contact form .inputBox input {
     width: 100%;
+    color: black;
 }
 
 .shopping-cart .cart-total .btn {
