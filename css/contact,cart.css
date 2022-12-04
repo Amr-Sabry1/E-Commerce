@@ -684,3 +684,7 @@ textarea {
 .credit p {
     color: white !important;
 }
+
+.accordioin-conten {
+    padding: 10px;
+}

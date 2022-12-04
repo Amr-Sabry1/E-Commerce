@@ -19,14 +19,45 @@
 
     <section id="mainPage">
 
-        <div class="back p-3 d-flex justify-content-between">
-            <a href="./home.html">
-                <i class="fa fa-backward text-white ms-md-5"></i>
-                <span class="fw-bold fs-4 ms-2 text-white">Home</span><span class="text-white-50 fs-5"> > PRODUCTS</span>
-            </a>
-            <input type="text" class="form-control w-50" placeholder="Type To Search...">
-        </div>
-        <div class="category">
+        <nav class="py-2 fixed-top">
+            <div class=" container w-75 mx-auto">
+                <div class=" row py-1 d-flex justify-content-between  align-items-center ">
+                    <div class="col-md-3 col-9 d-flex mt-1 logo">
+                        <i class="fas fa-store text-warning"></i>
+                        <div class="d-flex flex-column ">
+                            <a href="./index.html">
+                                <h4 class="mb-0 fs-3 fw-bolder"> Store</h4>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-3">
+                        <!-- <i class="fa-solid fa-magnifying-glass m-1 fs-2"></i> -->
+                        <!-- <i class="fa-solid fa-xmark fs-2 m-1 d-none" id="closeSearch"></i> -->
+                        <input type="text" id="search" class="form-control py-2 ps-3 rounded-5 " placeholder="Type To Search...">
+                    </div>
+                    <div class="col-md-3" id="ulCard">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link " aria-current="page " href="./login.html"><i class="fas fa-user"></i></a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link " aria-current="page " id="cart" href="./Cart2.html"><span><i class="fas fa-shopping-cart"></i></span></a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link " aria-current="page " id="favorite" href="favorite.html"><span><i class="fa-solid position-relative fa-heart top-0 end-0 "></i></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- <a href="login.html" class="fas fa-user"></a>
+        <a href="favorite.html" class="fas fa-heart"></a>
+        <a href="Cart2.html" class="fas fa-shopping-cart"></a> -->
+        <div class="category fixed-top bg-white">
             <div class="container py-3 row">
                 <div class="col-lg-1 col-0"></div>
                 <div class="col-4  col-lg-2">
@@ -53,6 +84,12 @@
         </div>
     </section>
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <section id="allPage">
         <div class="bg-white p-3 d-flex justify-content-between">

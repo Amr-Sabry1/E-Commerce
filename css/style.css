@@ -9,6 +9,10 @@ nav .navbar-nav {
     transition: all .7s;
 }
 
+nav {
+    background-color: #3949a7;
+}
+
 :root {
     --white-color: white;
     --main-color: rgb(92, 66, 206);
@@ -18,10 +22,10 @@ img {
     width: 100%;
 }
 
-.logo i {
+nav i {
     color: var(--white-color);
     margin: 3px 10px 0 0;
-    font-size: 35px;
+    font-size: 28px;
 }
 
 .logo h5 {
@@ -43,6 +47,7 @@ img {
 }
 
 .category {
+    margin-top: 70px !important;
     font-size: 18px;
     border-bottom: 1px solid black;
 }
@@ -395,8 +400,8 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-    #search {
-        display: none;
+    .category {
+        margin-top: 100px!important;
     }
     .fa-magnifying-glass {
         display: block;
