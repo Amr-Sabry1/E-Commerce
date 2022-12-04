@@ -90,3 +90,8 @@ button a {
     width: 10%;
     letter-spacing: 1px;
 }
+
+label {
+    font-size: 15px;
+    color: rgba(117, 115, 115, 0.864);
+}
