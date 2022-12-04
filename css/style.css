@@ -274,6 +274,7 @@ h5 {
 
 #lightBoxContainer,
 .ss {
+    z-index: 888888888888888888888888;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
