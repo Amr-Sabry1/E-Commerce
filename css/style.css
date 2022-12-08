@@ -247,17 +247,6 @@ img {
     border-radius: 10px;
 }
 
-.sale {
-    color: #ffffff;
-    position: absolute;
-    top: 70px;
-    left: 20px;
-    transform: rotate(-30deg);
-    background-color: red;
-    padding: 5px 10px;
-    border-radius: 4px;
-}
-
 .fa-heart {
     font-size: 30px;
     top: 10px;
@@ -272,96 +261,18 @@ h5 {
     color: rgb(114, 6, 255);
 }
 
-#lightBoxContainer,
-.ss {
-    z-index: 888888888888888888888888;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    left: 0;
-    bottom: o;
-    right: 0;
-    top: 0;
-}
-
-#inner {
-    border-bottom: 15px solid var(--main-color);
-    width: 100%;
-    margin-top: 15% !important;
-    height: 80% !important;
-    border-radius: 10px 10px 10px 90px;
-}
-
-#CartDisplay img {
-    height: 250px !important;
-    width: 250px !important;
-}
-
-#CartDisplay .line {
-    border-bottom: 2px solid black;
-}
-
-#lightBox,
-.cc {
-    border-top: 11px solid var(--main-color);
-    border-left: 3px solid var(--main-color);
-    border-right: 3px solid var(--main-color);
-    border-bottom: 11px solid var(--main-color);
-    border-radius: 20px;
-    height: 600px;
-    width: 50%;
-    transition: .6s all;
-    background-position: center center;
-    background-size: cover;
-}
-
 .fa-magnifying-glass {
     display: none;
 }
 
 @media screen and (max-width:600px) {
-    #lightBox,
-    .cc {
-        height: 750px;
-        width: 90%;
-    }
     .container {
         width: 100% !important;
         margin: auto;
     }
 }
 
-@media screen and (min-width:600px) and (max-width:992px) {
-    #lightBox,
-    .cc {
-        height: 700px;
-        width: 70%;
-    }
-}
-
-#lightBox i,
-#lightBoxMen i,
-#lightBoxWomen i,
-#closeBtnlap,
-#lightBoxMop i {
-    width: 25px;
-    height: 25px;
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 5555555555555555555555;
-    border-radius: 50%;
-    background-color: rgb(255, 9, 9);
-}
-
-.addbtn,
-.addbtnMen,
-.addbtnWomen,
-.addbtnMop,
-.addbtnlap {
+.addbtn {
     font-weight: 600;
     background-color: var(--main-color);
     padding: 6px 10px;
@@ -371,11 +282,7 @@ h5 {
     border: 3px solid var(--main-color);
 }
 
-.addbtn:hover,
-.addbtnMen:hover,
-.addbtnWomen:hover,
-.addbtnMop:hover,
-.addbtnlap:hover {
+.addbtn:hover {
     cursor: pointer;
     background-color: white;
     color: black;
@@ -400,15 +307,6 @@ footer {
     padding: 10px 0px 5px;
 }
 
-@media screen and (max-width:768px) {
-    .category {
-        margin-top: 100px!important;
-    }
-    .fa-magnifying-glass {
-        display: block;
-    }
-}
-
 label {
     font-size: 17px;
     font-weight: 500;
@@ -423,4 +321,34 @@ label {
     padding: 2px 8px;
     margin-right: 5px;
     background-color: #efefef;
+}
+
+#productPage img {
+    width: 80%;
+    margin-left: 5%;
+    height: 500px;
+}
+
+#productPage img {
+    border-radius: 20px;
+    overflow: hidden;
+    border-top: 5px solid var(--main-color) !important;
+    border-left: 1px solid var(--main-color) !important;
+    border-right: 1px solid var(--main-color) !important;
+    border-bottom: 10px solid var(--main-color) !important;
+}
+
+@media screen and (max-width:768px) {
+    .category {
+        margin-top: 100px!important;
+    }
+    .fa-magnifying-glass {
+        display: block;
+    }
+    #productPage img {
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0%;
+        height: 500px;
+    }
 }

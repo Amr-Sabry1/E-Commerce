@@ -61,7 +61,23 @@ section {
     background: #3949a7;
 }
 
-.btn:hover {
+.cart-total a {
+    color: white;
+}
+
+.cart-total button {
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: 5rem;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+    background: #3949a7;
+}
+
+.btn:hover,
+.cart-total button:hover {
     background: #333;
 }
 
